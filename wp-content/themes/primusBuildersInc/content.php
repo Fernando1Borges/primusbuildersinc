@@ -63,7 +63,7 @@
         </div>
         <div class="col-sm-6 col-md-4 portfolio-item">
           <div class="portfolio-image"
-          style="background-image:url(<?php bloginfo('template_directory');?>/img/custom-stairs.JPG)">
+          style="background-image:url(<?php bloginfo('template_directory');?>/img/custom-stairs.png)">
         </div>
         <div class="portfolio-item-text">
           <h4>Custom Stairs</h4>
@@ -82,7 +82,7 @@
     </div>
     <div class="col-sm-6 col-md-4 portfolio-item">
       <div class="portfolio-image"
-      style="background-image:url(<?php bloginfo('template_directory');?>/img/cabinets-installation.JPG">
+      style="background-image:url(<?php bloginfo('template_directory');?>/img/cabinets-installation.png">
     </div>
     <div class="portfolio-item-text">
       <h4>Kitchen Cabinets Installation</h4>
@@ -101,7 +101,7 @@
 </div>
 <div class="col-sm-6 col-md-4 portfolio-item">
   <div class="portfolio-image"
-  style="background-image:url(<?php bloginfo('template_directory');?>/img/custom-bathroom.JPG)">
+  style="background-image:url(<?php bloginfo('template_directory');?>/img/custom-bathroom.png)">
 </div>
 <div class="portfolio-item-text">
   <h4>Custom Bathroom Cabinet</h4>
