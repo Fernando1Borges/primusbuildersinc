@@ -35,8 +35,9 @@
   $headers = 'From: '. $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n" .
     'Sender-Name: ' . $name . "\r\n" .
-    'Subject: ' . $subject . "\r\n" .
     'Phone-Number: ' . $phone . "\r\n";
+  $message_send = "headers :" . $headers . "message :" . $message;
+
 
   if(!$human == 0){
     if($human != 4) my_contact_form_generate_response("error", $not_human); //not human!
@@ -53,7 +54,7 @@
         }
         else //ready to go!
         {
-          $sent = wp_mail($to, $subject, strip_tags($message), $headers);
+          $sent = wp_mail($to, $subject, strip_tags($message_send), $headers);
           if($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
           else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
         }

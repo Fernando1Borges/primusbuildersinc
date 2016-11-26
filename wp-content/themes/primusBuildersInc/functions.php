@@ -20,6 +20,59 @@ function startwordpress_google_fonts() {
 		}
 
 add_action('wp_print_styles', 'startwordpress_google_fonts');
-
-
 //|Imprima
+
+// Filter email address
+add_filter( 'wp_mail_from', 'my_mail_from' );
+function my_mail_from( $email ) {
+    return "kgnat77@gmail.com";
+}
+
+// Filter email name
+add_filter( 'wp_mail_from_name', 'my_mail_from_name' );
+function my_mail_from_name( $name ) {
+    return "KonradGnatWP";
+}
+
+
+
+
+
+/**
+ * This function will connect wp_mail to your authenticated
+ * SMTP server. This improves reliability of wp_mail, and
+ * avoids many potential problems.
+ *
+ * Author:     Chad Butler
+ * Author URI: http://butlerblog.com
+ *
+ * For more information and instructions, see:
+ * http://b.utler.co/Y3
+ */
+add_action( 'phpmailer_init', 'send_smtp_email' );
+function send_smtp_email( $phpmailer ) {
+
+	// Define that we are sending with SMTP
+	$phpmailer->isSMTP();
+
+	// The hostname of the mail server
+	$phpmailer->Host = "smtp.gmail.com";
+
+	// Use SMTP authentication (true|false)
+	$phpmailer->SMTPAuth = true;
+
+	// SMTP port number - likely to be 25, 465 or 587
+	$phpmailer->Port = "465";
+
+	// Username to use for SMTP authentication
+	$phpmailer->Username = "kgnat77@gmail.com";
+
+	// Password to use for SMTP authentication
+	$phpmailer->Password = "passsssfake";
+
+	// Encryption system to use - ssl or tls
+	$phpmailer->SMTPSecure = "ssl";
+
+	$phpmailer->From = "kgnat77@gmail.com";
+	$phpmailer->FromName = "konradWP";
+}
