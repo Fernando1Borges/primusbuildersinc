@@ -21,14 +21,14 @@ body {
 .body-text h3 {
   font-size: 36px; }
 
-button {
+button, input[type="submit"] {
   border: 1px solid #090F15;
   background: #fff;
   margin-left: 10px;
   transition: all 0.3s ease;
   color: #d21160; }
 
-button:hover {
+button:hover, input[type="submit"]:hover {
   background-color: #d21160;
   color: #fff;
   transition: color .3s ease,border .3s ease,background .3s ease; }
@@ -281,7 +281,7 @@ h2, h3 {
   height: 250px;
   resize: none; }
 
-.quote-form-inner button {
+.quote-form-inner input[type="submit"] {
   width: 100%;
   max-width: 240px;
   margin: 28px auto 0px auto;
