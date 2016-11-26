@@ -1,0 +1,33 @@
+{
+  "name": "primusbuildersincwebsite",
+  "version": "1.0.0",
+  "description": "Primus Builders Inc Construction Business Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernando1Borges/primusbuildersinc.git"
+  },
+  "keywords": [
+    "construction",
+    "business",
+    "chicago",
+    "carpentry",
+    "primus",
+    "builders",
+    "inc"
+  ],
+  "author": "Konrad Gnat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fernando1Borges/primusbuildersinc/issues"
+  },
+  "homepage": "https://github.com/Fernando1Borges/primusbuildersinc#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7"
+  }
+}
