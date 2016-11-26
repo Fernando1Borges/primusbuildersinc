@@ -68,7 +68,7 @@ function send_smtp_email( $phpmailer ) {
 	$phpmailer->Username = "kgnat77@gmail.com";
 
 	// Password to use for SMTP authentication
-	$phpmailer->Password = "passsssfake2";
+	$phpmailer->Password = "passsssfake3";
 
 	// Encryption system to use - ssl or tls
 	$phpmailer->SMTPSecure = "ssl";
