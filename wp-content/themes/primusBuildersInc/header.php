@@ -24,6 +24,7 @@
   <?php wp_head(); ?>
 </head>
 <body>
+  
 
   <header>
     <nav class="navbar navbar-default navbar-fixed-top">
