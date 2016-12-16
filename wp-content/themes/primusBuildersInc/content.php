@@ -82,7 +82,7 @@
     </div>
     <div class="col-sm-6 col-md-4 portfolio-item">
       <div class="portfolio-image"
-      style="background-image:url(<?php bloginfo('template_directory');?>/img/kitchen.png">
+      style="background-image:url(<?php bloginfo('template_directory');?>/img/kitchen.jpg">
     </div>
     <div class="portfolio-item-text">
       <h4>Kitchen Cabinets Installation</h4>
