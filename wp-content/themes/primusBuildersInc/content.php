@@ -82,12 +82,11 @@
     </div>
     <div class="col-sm-6 col-md-4 portfolio-item">
       <div class="portfolio-image"
-      style="background-image:url(<?php bloginfo('template_directory');?>/img/kitchen.jpg">
+      style="background-image:url(<?php bloginfo('template_directory');?>/img/kitchen-cabinets.jpg)">
     </div>
     <div class="portfolio-item-text">
       <h4>Kitchen Cabinets Installation</h4>
       <p>Expert installation services of all kinds</p>
-      <!-- <p>January 2008</p> -->
     </div>
   </div>
   <div class="col-sm-6 col-md-4 portfolio-item">
